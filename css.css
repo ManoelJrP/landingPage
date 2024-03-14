@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #300449;
+    
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+    margin: 0;
+    padding-top: 6px;
+    font-size: 30px;
+    color: white;
+}
+.texto {
+    
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+img {
+    max-width: 100px;
+    border-radius: 50%;
+    max-height: 100px;
+    
+    
+}
+.titulo {
+    
+    font-size: 25px;
+    padding-left: 20px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+/*--------------------cursos---------------------------*/
+
+
+
+/*-----------------------------------------------------*/
+
+.aviso {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
+
+header {
+    margin: 0;
+    height: 50px;
+    background-color: rgb(90, 0, 150);
+    text-align: center;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffcb5a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-top: 0;
+}
+label {
+    font-weight: bold;
+}
+#nome {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+#email {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+#celular {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="subimit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.enviar {
+    width: 82px;
+    height: 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.diretriz {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(95, 95, 95);
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    
+}
+.ft {
+    color: gray;
+}

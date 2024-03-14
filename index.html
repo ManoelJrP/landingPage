@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="css.css">
+    <title>OnePage</title>
+</head>
+<body>
+    <header>
+        <p>
+            Proz - Educar é Ensinar
+        </p>
+    </header>
+    <main>
+        
+        <p class="aviso">
+            Pra finalizar sua inscrição nos nossos cursos online preecha o formulário abaixo para receber uma mensagem de confirmação!
+        </p>
+        <div class="container">
+            <h2>Preencha o formulário pra receber a mensagem de confirmação</h2>
+            <form id="formContato" onsubmit="enviarFormulario(); return false;">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" required placeholder="Digite seu número de celular">
+                <p class="diretriz">Ao clicar em enviar você estará concordando com as nossas <a href="">Diretrizes</a></p>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+            <div id="statusEnvio"></div>
+        </div>
+    </main>
+
+    <script src="javascr.js"></script>
+    <footer> <a href="" class="ft"> Sobre nós  </a>      -       <a href="" class="ft">    contato   </a>     -       <a href="" class="ft">   nhew</a></footer>
+</body>
+</html>
